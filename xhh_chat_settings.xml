@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <mirrors>
+    <!--配置阿里云Maven镜像-->
+    <mirror>
+      <id>nexus-aliyun</id>
+      <mirrorOf>central</mirrorOf>
+      <name>Nexus aliyun</name>
+      <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+    </mirror>
+    <!--配置华为云Maven镜像-->
+    <mirror>
+      <id>huaweicloud</id>
+      <mirrorOf>*</mirrorOf>
+      <url>https://mirrors.huaweicloud.com/repository/maven/</url>
+    </mirror>
+  </mirrors>
+</settings>
