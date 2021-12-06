@@ -13,7 +13,7 @@ import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 import org.springframework.stereotype.Component;
 
-@ServerEndpoint("/websocket/{nickname}")
+@ServerEndpoint("/websocket/{nickName}")
 @Component
 public class MyWebSocket {
 
